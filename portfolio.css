@@ -1,0 +1,85 @@
+body,html{
+    height: 100%;
+    margin:0px;
+    font-size: 10px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 8cm;
+}
+
+/*========= [header portion]================*/
+.header{
+    line-height:0.4cm;
+    padding: 30px;
+    background-color:#ff6905;
+    text-align: center;
+}
+.header h2{
+    color: black; 
+}
+
+/*===========[Google Search Bar]=========*/
+input[type=search]{  
+    border: 5px  orange;  
+    box-sizing: border-box;  
+    font-size:1em;  
+    height: 2em;  
+    margin-left: 10vw;  
+    padding: .5em;  
+    transition: all 2s ease-in;  
+    width: 30vw;  
+    z-index:1;  
+    &:focus {  
+        border: solid 3px #09f;        
+        outline: solid #fc0 2000px;  
+    }
+}
+          
+/*===============[Nav CSS]==========*/
+.nav{
+    background-color:#000102b7;
+    padding: 1px;
+    line-height: 8%;
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+}
+.nav a{
+    color: #fff;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color: #7fffd4;
+}
+
+/*=============[left side]==============*/
+.lside{
+    float: left;
+    width: 80%;
+    min-height: 440px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+/*============[right side]===============*/
+.rside
+{
+text-align: center;
+float: right;
+width: 20%;
+min-height: 440px;
+background-color:  #c1cdcd;
+}
+
+/*============[footer]===================*/
+.footer{
+    height: 44px;
+    background-color:#455e64; 
+    text-align: center; 
+    padding-top: 10px;
+}
+.footer p{
+    color:   #8fbc8f;
+}  
