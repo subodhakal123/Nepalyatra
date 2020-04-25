@@ -7,15 +7,23 @@ body,html{
     line-height: 8cm;
 }
 
+section{
+    min-height: 100%;
+    background-color: greenyellow;
+}
+
 /*========= [header portion]================*/
 .header{
-    line-height:0.4cm;
+    line-height:12%;
     padding: 30px;
-    background-color:#ff6905;
+    background-image: url("image/wood.jpeg");
     text-align: center;
 }
-.header h2{
-    color: black; 
+.header h1{
+    font-size: 50px;
+    font-style: italic, bold;
+    color: rgb(252, 121, 14);
+    text-shadow: 0 0 4px #FFF;
 }
 
 /*===========[Google Search Bar]=========*/
@@ -25,9 +33,10 @@ input[type=search]{
     font-size:1em;  
     height: 2em;  
     margin-left: 10vw;  
+    float: right;
     padding: .5em;  
     transition: all 2s ease-in;  
-    width: 30vw;  
+    width: 20vw;  
     z-index:1;  
     &:focus {  
         border: solid 3px #09f;        
@@ -58,9 +67,9 @@ input[type=search]{
 .lside{
     float: left;
     width: 80%;
-    min-height: 440px;
-    background-color: #f0f8ff;
     text-align: center;
+    line-height: 435px;
+    background-image: url("image/wood.jpeg");
 }
 
 /*============[right side]===============*/
@@ -69,17 +78,41 @@ input[type=search]{
 text-align: center;
 float: right;
 width: 20%;
-min-height: 440px;
-background-color:  #c1cdcd;
+background-image: url("image/wood.jpeg");
+line-height: 435px;
+}
+
+/*============[blog]===================*/
+.blog{
+    background-color: pink;
+    text-align: center; 
+    padding-top: 10px;
+    min-height: 100%;
+}
+
+/*============[portfolio]===================*/
+.portfolio{
+    background-color: red;
+    text-align: center; 
+    padding-top: 10px;
+    min-height: 100%;
+}
+
+/*============[contact]===================*/
+.contact{
+    background-color: blue;
+    text-align: center; 
+    padding-top: 10px;
+    min-height: 100%;
 }
 
 /*============[footer]===================*/
 .footer{
-    height: 44px;
-    background-color:#455e64; 
+    background-image: url("image/plane2.jpeg");
     text-align: center; 
     padding-top: 10px;
+    min-height: 100%;
 }
 .footer p{
-    color:   #8fbc8f;
+    color:   #f3e306;
 }  
